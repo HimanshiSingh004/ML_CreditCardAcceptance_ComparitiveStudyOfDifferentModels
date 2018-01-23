@@ -1,0 +1,2 @@
+# ML_CreditCardAcceptance_ComparitiveStudyOfDifferentModels
+Machine Learning Project with different scikit models
