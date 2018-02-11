@@ -14,6 +14,7 @@ from sklearn import datasets
 from sklearn import tree
 import matplotlib.pyplot as plt
 
+#Printscore is a function we'll be using because we have a set of classification data so we'll compare our results based on a few scores.
 def printscore(prediction,actual,algo):
     print("ALGO : ",algo)
     print("confusion matrix : ")
