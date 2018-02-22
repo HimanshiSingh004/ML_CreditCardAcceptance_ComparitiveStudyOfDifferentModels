@@ -30,7 +30,7 @@ os.chdir("f:/datafiles")
 cc=pd.read_csv("credit_card.csv")
 cc.head()
 cc.columns.values
-#data cleaning will get done first. Three of our features have classified remarks, we are preprocessing to resolve them
+#data cleaning will get done first Three of our features have classified remarks, we are preprocessing to resolve them
 leenc=preprocessing.LabelEncoder()   
 card_enc=leenc.fit_transform(cc["card"])
 owner_enc=leenc.fit_transform(cc["owner"])
